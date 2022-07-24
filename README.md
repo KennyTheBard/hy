@@ -11,12 +11,12 @@ Create and initialize global template directory
 cd
 mkdir .hygen
 cd .hygen
-mkdir _templates
+mkdir templates
 ```
 
 Configure Hygen to use a global templates directory by add this line to `.bashrc` or your system's equivalent.
 ```bash
-export HYGEN_TMPLS=$(pwd)/.hygen
+export HYGEN_TMPLS=$(pwd)/.hygen/templates
 ```
 
-Move your templates inside `/home/<you_username>/.hygen/_templates`.
+Move your templates inside `/home/<you_username>/.hygen/templates`.
